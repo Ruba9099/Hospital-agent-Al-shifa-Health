@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="640" viewBox="0 0 1280 640">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0B3D5C"/>
+      <stop offset="1" stop-color="#0E7C7B"/>
+    </linearGradient>
+  </defs>
+  <rect width="1280" height="640" fill="url(#bg)"/>
+  <!-- soft decorative circles -->
+  <circle cx="1120" cy="110" r="190" fill="#FFFFFF" opacity="0.05"/>
+  <circle cx="1180" cy="560" r="140" fill="#FFFFFF" opacity="0.05"/>
+
+  <!-- medical cross -->
+  <g transform="translate(96,96)">
+    <rect width="88" height="88" rx="20" fill="#FFFFFF"/>
+    <rect x="34" y="16" width="20" height="56" rx="4" fill="#0E7C7B"/>
+    <rect x="16" y="34" width="56" height="20" rx="4" fill="#0E7C7B"/>
+  </g>
+
+  <text x="96" y="290" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="68" font-weight="700" fill="#FFFFFF">Hospital Voice Agent</text>
+  <text x="96" y="350" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="34" fill="#BFEDEA">Al-Shifa Health · Bilingual AI receptionist (English + اردو)</text>
+
+  <!-- feature chips -->
+  <g font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="24" fill="#FFFFFF" text-anchor="middle">
+    <rect x="96" y="410" width="290" height="52" rx="26" fill="#FFFFFF" opacity="0.14"/>
+    <text x="241" y="444">Appointment booking</text>
+    <rect x="402" y="410" width="250" height="52" rx="26" fill="#FFFFFF" opacity="0.14"/>
+    <text x="527" y="444">Doctor schedules</text>
+    <rect x="668" y="410" width="220" height="52" rx="26" fill="#FFFFFF" opacity="0.14"/>
+    <text x="778" y="444">Hospital FAQs</text>
+    <rect x="96" y="478" width="380" height="52" rx="26" fill="#FFFFFF" opacity="0.14"/>
+    <text x="286" y="512">Emergency → human handoff</text>
+    <rect x="492" y="478" width="340" height="52" rx="26" fill="#FFFFFF" opacity="0.14"/>
+    <text x="662" y="512">Live on Google Cloud Run</text>
+  </g>
+
+  <!-- live badge -->
+  <g transform="translate(980,560)">
+    <rect width="204" height="44" rx="22" fill="#22C55E"/>
+    <circle cx="28" cy="22" r="7" fill="#FFFFFF"/>
+    <text x="46" y="30" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="22" font-weight="700" fill="#FFFFFF">LIVE DEMO</text>
+  </g>
+</svg>
